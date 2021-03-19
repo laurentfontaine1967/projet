@@ -1,0 +1,308 @@
+/* color */
+/*  NAV telecharger le jeu :rgba(255, 0, 0, 0.644)*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+/*NAVIGATION */
+
+nav a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.logo {
+  max-width: 20%;
+  margin-left: 100px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+
+.dimens {
+  margin-right: 200px;
+}
+
+.entete {
+  padding-top: 20px;
+  background: url(header.jpg) no-repeat top/cover;
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+}
+
+nav {
+  padding-top: 0;
+}
+
+nav a {
+  font-family: "Lato", sans-serif;
+  font-weight: 600px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pointer {
+  color: white;
+}
+
+.pointer:hover {
+  color: #ffd700;
+}
+
+.bouton:hover {
+  background-color: red;
+}
+
+.bouton {
+  color: white;
+  font-size: 11px;
+  background-color: rgba(255, 0, 0, 0.644);
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* SECTION 1 */
+
+.section1 {
+  margin: 0 20%;
+  margin-top: 100px;
+  height: 450px;
+  border-bottom: solid 1px grey;
+  font-family: "Merriweather",  serif;
+}
+
+.image {
+  background: url(games.jpg) no-repeat center/cover;
+  height: 350px;
+  text-align: right;
+}
+
+.jeu {
+  width: 100px;
+}
+
+.verte {
+  color: forestgreen;
+}
+
+.acheter {
+  padding: 15px;
+  text-decoration: none;
+  color: goldenrod;
+  background: rgb(105, 3, 3);
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 100px;
+}
+
+.acheter:hover {
+  color: white;
+}
+
+/* SECTION 2 */
+
+.section2 {
+  margin: 0 20%;
+  margin-top: 60px;
+}
+
+.section2 a {
+  padding-top: 20px;
+  font-family: "Merriweather",  serif;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+}
+
+.taille {
+  max-width: 85%;
+  padding: 10% 10%;
+  margin: 0 10%;
+}
+
+.image1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.image1:hover {
+  background: linear-gradient(to top, #f5f5f5, #fff);
+  border-bottom: 5px solid grey;
+}
+
+.image2 {
+  display: flex;
+  flex-direction: column;
+}
+.image2:hover {
+  background: linear-gradient(to top, #f5f5f5, #fff);
+  border-bottom: 5px solid grey;
+}
+
+.image3 {
+  display: flex;
+  flex-direction: column;
+}
+.image3:hover {
+  background: linear-gradient(to top, #f5f5f5, #fff);
+  border-bottom: 5px solid grey;
+}
+
+.image4 {
+  display: flex;
+  flex-direction: column;
+}
+.image4:hover {
+  background: linear-gradient(to top, #f5f5f5, #fff);
+  border-bottom: 5px solid grey;
+}
+
+.image5 {
+  display: flex;
+  flex-direction: column;
+}
+.image5:hover {
+  background: linear-gradient(to top, #f5f5f5, #fff);
+  border-bottom: 5px solid grey;
+}
+
+.image6 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.image6:hover {
+  background: linear-gradient(to top, #f5f5f5, #fff);
+  border-bottom: 5px solid grey;
+}
+
+.image7 {
+  display: flex;
+  flex-direction: column;
+}
+.image7:hover {
+  background: linear-gradient(to top, #f5f5f5, #fff);
+  border-bottom: 5px solid grey;
+}
+
+.image8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.image8:hover {
+  background: linear-gradient(to top, #f5f5f5, #fff);
+  border-bottom: 5px solid grey;
+}
+
+.imageder {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.imageder:hover {
+  background: linear-gradient(to top, #f5f5f5, #fff);
+  border-bottom: 5px solid grey;
+}
+
+.forfirstimages {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.forsecondimage {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* FOOTER */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  background: url(footer.jpg) no-repeat top/cover;
+  height: 350px;
+  font-family: "Merriweather",  serif;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.fouteur1 {
+  padding-top: 60px;
+  height: 140px;
+  margin: 0 20%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px grey;
+}
+
+.guildwars2 {
+  width: 35%;
+}
+
+.sociaux {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#fonte {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+
+i {
+  font-size: 30px;
+  color: grey;
+}
+
+i:hover {
+  color: black;
+}
+
+.fouteur2 {
+  padding-top: 20px;
+  margin: 0 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#gras {
+  font-weight: bold;
+}
+
+.italique {
+  font-style: italic;
+}
+
+.footergauche {
+  margin-right: 30px;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerdroit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
