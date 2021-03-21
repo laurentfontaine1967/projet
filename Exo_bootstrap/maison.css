@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form a {
+  color: inherit;
+}
+
+.im1 {
+  max-width: 70%;
+}
+
+.im2 {
+  max-width: 40%;
+}
+
+#dive1 {
+  background-color: orange;
+  text-align: left;
+  color: white;
+  border-radius: 10px;
+}
+#dive2 {
+  background-color: lightblue;
+  text-align: left;
+  color: white;
+  border-radius: 10px;
+}
+
+#dive3 {
+  background-color: pink;
+  text-align: left;
+  color: white;
+  border-radius: 10px;
+}
+
+nav{
+  margin-bottom: 50px;
+
+}
+
+.container{
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+
+/* #taille {
+  width: 100%;
+  height: 200px; */
+}
